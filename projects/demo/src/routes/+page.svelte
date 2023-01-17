@@ -2,6 +2,7 @@
 	import Counter from './Counter.svelte';
 	import welcome from '$lib/images/svelte-welcome.webp';
 	import welcome_fallback from '$lib/images/svelte-welcome.png';
+	import logo from '$lib/images/logo.png';
 </script>
 
 <svelte:head>
@@ -18,8 +19,9 @@
 			</picture>
 		</span>
 
-		to your new<br />Club info app
+		to your new<br />Voltaire Club Info app !
 	</h1>
+	<img alt='logo club informatique' width='300px' src={logo}/>
 
 	<h2>
 		try editing <strong>src/routes/+page.svelte</strong>

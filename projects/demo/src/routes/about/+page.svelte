@@ -4,23 +4,21 @@
 </svelte:head>
 
 <div class="text-column">
-	<h1>About this app</h1>
+	<h1>A propos de cette app</h1>
 
 	<p>
-		This is a <a href="https://kit.svelte.dev">SvelteKit</a> app. You can make your own by typing the
-		following into your command line and following the prompts:
+		Cette app est un premier petit projet du club informatique du Lycée Voltaire pour apprendre les
+		bases de développement Web à l'aide de technologies modernes.
 	</p>
-
-	<pre>npm create svelte@latest</pre>
-
 	<p>
-		The page you're looking at is purely static HTML, with no client-side interactivity needed.
-		Because of that, we don't need to load any JavaScript. Try viewing the page's source, or opening
-		the devtools network panel and reloading.
+		Le code source est sauvegardée sur <a href="https://github.com">Github</a>.
 	</p>
-
 	<p>
-		The <a href="/sverdle">Sverdle</a> page illustrates SvelteKit's data loading and form handling. Try
-		using it with JavaScript disabled!
+		L'environnement de développement est le browser Google Chrome à l'aide du site
+		<a href="https://stackblitz.com">Stackblitz</a>.
+	</p>
+	<p>
+		Pour nous aider à programmer l'app, nous utilisons le metaframework
+		<a href="https://kit.svelte.dev">SvelteKit</a>.
 	</p>
 </div>
