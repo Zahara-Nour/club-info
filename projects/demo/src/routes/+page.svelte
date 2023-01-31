@@ -15,7 +15,7 @@
 		<span class="welcome">
 			<picture>
 				<source srcset={welcome} type="image/webp" />
-				<img src={welcome_fallback} alt="Welcome" />
+				<img src={welcome_fallback} alt="Welcome" height="100%" class="pl-4" />
 			</picture>
 		</span>
 

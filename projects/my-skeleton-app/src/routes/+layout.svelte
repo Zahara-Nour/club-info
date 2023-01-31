@@ -3,6 +3,8 @@
 	import '@skeletonlabs/skeleton/styles/all.css'
 	import '../app.postcss'
 	import { AppShell, AppBar } from '@skeletonlabs/skeleton'
+	import { LightSwitch } from '@skeletonlabs/skeleton'
+	import logo from '$lib/images/logo-petit.png'
 </script>
 
 <!-- App Shell -->
@@ -11,7 +13,8 @@
 		<!-- App Bar -->
 		<AppBar>
 			<svelte:fragment slot="lead">
-				<strong class="text-xl uppercase">Skeleton</strong>
+				<img alt="logo" src={logo} class="pr-4 h-12" />
+				<strong class="text-xl uppercase">Les Geeks</strong>
 			</svelte:fragment>
 			<svelte:fragment slot="trail">
 				<a
@@ -20,18 +23,7 @@
 					target="_blank"
 					rel="noreferrer">Discord</a
 				>
-				<a
-					class="btn btn-sm variant-ghost-surface"
-					href="https://twitter.com/SkeletonUI"
-					target="_blank"
-					rel="noreferrer">Twitter</a
-				>
-				<a
-					class="btn btn-sm variant-ghost-surface"
-					href="https://github.com/skeletonlabs/skeleton"
-					target="_blank"
-					rel="noreferrer">GitHub</a
-				>
+				<LightSwitch />
 			</svelte:fragment>
 		</AppBar>
 	</svelte:fragment>
