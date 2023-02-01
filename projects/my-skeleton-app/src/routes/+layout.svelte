@@ -2,9 +2,11 @@
 	import '@skeletonlabs/skeleton/themes/theme-skeleton.css'
 	import '@skeletonlabs/skeleton/styles/all.css'
 	import '../app.postcss'
+
 	import { AppShell, AppBar } from '@skeletonlabs/skeleton'
 	import { LightSwitch } from '@skeletonlabs/skeleton'
 	import logo from '$lib/images/logo-petit.png'
+	import { Toast } from '@skeletonlabs/skeleton'
 </script>
 
 <!-- App Shell -->
@@ -34,4 +36,5 @@
 	</svelte:fragment>
 	<!-- Page Route Content -->
 	<slot />
+	<Toast />
 </AppShell>
