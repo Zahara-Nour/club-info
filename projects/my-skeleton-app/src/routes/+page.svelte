@@ -1,5 +1,7 @@
 <!-- YOU CAN DELETE EVERYTHING IN THIS PAGE -->
 <script>
+	import { Avatar } from '@skeletonlabs/skeleton'
+	import ZeMadCoder from '$lib/images/ZeMadCoder.jpg'
 </script>
 
 <div class="container h-full mx-auto flex justify-center items-center">
@@ -16,6 +18,16 @@
 			</svg>
 		</figure>
 		<!-- / -->
+		<div>
+			Avec :
+			<ul class="mt-4">
+				<li>
+					<div class="flex justify-center items-center">
+						<Avatar src={ZeMadCoder} /> <span class="pl-4">ZeMadCoder<span /></span>
+					</div>
+				</li>
+			</ul>
+		</div>
 	</div>
 </div>
 
