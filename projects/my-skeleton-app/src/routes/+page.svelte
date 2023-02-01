@@ -1,8 +1,10 @@
 <!-- YOU CAN DELETE EVERYTHING IN THIS PAGE -->
+<script>
+</script>
 
 <div class="container h-full mx-auto flex justify-center items-center">
 	<div class="space-y-10 text-center">
-		<h2 class="font-bold">Welcome to Skeleton.</h2>
+		<h2 class="font-bold">Bienvenue au club info du lycée Voltaire.</h2>
 		<!-- Animated Logo -->
 		<figure>
 			<section class="img-bg" />

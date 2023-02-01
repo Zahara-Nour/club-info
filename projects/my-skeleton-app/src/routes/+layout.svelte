@@ -13,8 +13,13 @@
 		<!-- App Bar -->
 		<AppBar>
 			<svelte:fragment slot="lead">
-				<img alt="logo" src={logo} class="pr-4 h-12" />
-				<strong class="text-xl uppercase">Les Geeks</strong>
+				<a href="/" rel="noreferrer">
+					<img alt="logo" src={logo} class="h-12" />
+				</a>
+				<strong class="ml-4 text-xl uppercase">Les Geeks</strong>
+				<a class="ml-4 btn btn-sm variant-ghost-surface" href="presentation" rel="noreferrer"
+					>Presentation</a
+				>
 			</svelte:fragment>
 			<svelte:fragment slot="trail">
 				<a
