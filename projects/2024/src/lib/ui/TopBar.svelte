@@ -1,11 +1,9 @@
 <script lang="ts">
-	import { AppBar, Avatar, modeCurrent, modeOsPrefers, popup } from '@skeletonlabs/skeleton';
-	import { LightSwitch } from '@skeletonlabs/skeleton';
-	import { get } from 'svelte/store';
-	import Burger from './Burger.svelte';
+	import { AppBar } from '@skeletonlabs/skeleton'
+	import { LightSwitch } from '@skeletonlabs/skeleton'
+	import Burger from './Burger.svelte'
 
-	export let drawerOpen: () => void;
-	const avatar = '/images/avatars/avatar-teacher-boy.jpg';
+	export let drawerOpen: () => void
 </script>
 
 <AppBar class="shadow-2xl">
@@ -13,8 +11,8 @@
 		<div class="inline-block">
 			<a href="/">
 				<strong
-					class="lg:text-primary-500 hidden lg:mr-6 lg:inline-block lg:text-xl lg:uppercase"
-					style="font-family: 'Baloo 2', sans-serif;">Ubumaths</strong
+					class="text-primary-500 mr-6 inline-block text-xl uppercase"
+					style="font-family: 'Baloo 2', sans-serif;">Mon site</strong
 				>
 			</a>
 		</div>

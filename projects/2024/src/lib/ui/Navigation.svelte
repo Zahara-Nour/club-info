@@ -20,6 +20,6 @@
 
 <style lang="postcss">
 	.active {
-		@apply border-b-4 rounded-none border-primary-500;
+		@apply border-primary-500 rounded-none border-b-4;
 	}
 </style>

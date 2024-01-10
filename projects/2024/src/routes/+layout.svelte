@@ -7,24 +7,26 @@
 		getDrawerStore,
 		initializeStores,
 		storePopup
-	} from '@skeletonlabs/skeleton';
-	import '../app.pcss';
-	import { computePosition, autoUpdate, offset, shift, flip, arrow } from '@floating-ui/dom';
-	import Navigation from '$lib/ui/Navigation.svelte';
-	import TopBar from '$lib/ui/TopBar.svelte';
+	} from '@skeletonlabs/skeleton'
+
+	import '../app.pcss'
+
+	import { computePosition, autoUpdate, offset, shift, flip, arrow } from '@floating-ui/dom'
+	import Navigation from '$lib/ui/Navigation.svelte'
+	import TopBar from '$lib/ui/TopBar.svelte'
 
 	function openDrawer(): void {
-		drawer.open({});
+		drawer.open({})
 	}
 
 	function closeDrawer(): void {
-		drawer.close();
+		drawer.close()
 	}
 
 	// modals, popups and drawer initialization
-	initializeStores();
-	storePopup.set({ computePosition, autoUpdate, offset, shift, flip, arrow });
-	const drawer = getDrawerStore();
+	initializeStores()
+	storePopup.set({ computePosition, autoUpdate, offset, shift, flip, arrow })
+	const drawer = getDrawerStore()
 </script>
 
 <Drawer><Navigation drawerClose={closeDrawer} /></Drawer>
